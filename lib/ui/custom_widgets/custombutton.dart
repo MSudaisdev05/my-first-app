@@ -9,7 +9,7 @@ class CustomButton extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       width: double.infinity,
-      height: 50,
+      height: 60,
       child: ElevatedButton(
         style: ElevatedButton.styleFrom(
           backgroundColor: Colors.black,
@@ -18,7 +18,10 @@ class CustomButton extends StatelessWidget {
           ),
         ),
         onPressed: () {},
-        child: Text(text?? '', style: TextStyle(fontSize: 16, color: whiteColor)),
+        child: Text(
+          text ?? '',
+          style: TextStyle(fontSize: 16, color: whiteColor),
+        ),
       ),
     );
   }
