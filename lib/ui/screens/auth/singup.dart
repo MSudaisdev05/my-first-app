@@ -103,23 +103,34 @@ class _SingUpState extends State<SingUp> {
               Row(
                 children: [
                   IconButton(onPressed: () {}, icon: Icon(Icons.check_box)),
-                  Text(
-                    " agree to the",
-                    style: sty12.copyWith(color: Color(0xFF021326)),
-                  ),
-                  TextButton(
-                    onPressed: () {},
+                  Expanded(
                     child: Text(
-                      "Terms & Conditions",
-                      style: sty12B.copyWith(color: Color(0xFF0066D8)),
+                      " agree to the",
+                      style: sty12.copyWith(color: Color(0xFF021326)),
                     ),
                   ),
-                  Text("and", style: sty12.copyWith(color: Color(0xFF021326))),
-                  TextButton(
-                    onPressed: () {},
+                  Expanded(
+                    child: TextButton(
+                      onPressed: () {},
+                      child: Text(
+                        "Terms & Conditions",
+                        style: sty12B.copyWith(color: Color(0xFF0066D8)),
+                      ),
+                    ),
+                  ),
+                  Expanded(
                     child: Text(
-                      "Privacy Policy",
-                      style: sty12B.copyWith(color: Color(0xFF0066D8)),
+                      "and",
+                      style: sty12.copyWith(color: Color(0xFF021326)),
+                    ),
+                  ),
+                  Expanded(
+                    child: TextButton(
+                      onPressed: () {},
+                      child: Text(
+                        "Privacy Policy",
+                        style: sty12B.copyWith(color: Color(0xFF0066D8)),
+                      ),
                     ),
                   ),
                 ],
