@@ -26,12 +26,17 @@ const styleheading = TextStyle(
   fontWeight: FontWeight.w700,
   color: blackColor,
 );
-const sty12 = TextStyle(
+const style12 = TextStyle(
   fontSize: 12,
   fontWeight: FontWeight.w400,
   color: blackColor,
 );
-const sty12B = TextStyle(
+const style12M = TextStyle(
+  fontSize: 12,
+  fontWeight: FontWeight.w600,
+  color: blackColor,
+);
+const style12B = TextStyle(
   fontSize: 12,
   fontWeight: FontWeight.bold,
   color: blackColor,
@@ -49,5 +54,15 @@ const style14B = TextStyle(
 const style14 = TextStyle(
   fontSize: 14,
   fontWeight: FontWeight.w400,
+  color: blackColor,
+);
+const style18B = TextStyle(
+  fontSize: 14,
+  fontWeight: FontWeight.bold,
+  color: blackColor,
+);
+const style42B = TextStyle(
+  fontSize: 42,
+  fontWeight: FontWeight.bold,
   color: blackColor,
 );

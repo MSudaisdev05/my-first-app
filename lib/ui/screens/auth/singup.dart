@@ -106,7 +106,7 @@ class _SingUpState extends State<SingUp> {
                   Expanded(
                     child: Text(
                       " agree to the",
-                      style: sty12.copyWith(color: Color(0xFF021326)),
+                      style: style12.copyWith(color: Color(0xFF021326)),
                     ),
                   ),
                   Expanded(
@@ -114,14 +114,14 @@ class _SingUpState extends State<SingUp> {
                       onPressed: () {},
                       child: Text(
                         "Terms & Conditions",
-                        style: sty12B.copyWith(color: Color(0xFF0066D8)),
+                        style: style12B.copyWith(color: Color(0xFF0066D8)),
                       ),
                     ),
                   ),
                   Expanded(
                     child: Text(
                       "and",
-                      style: sty12.copyWith(color: Color(0xFF021326)),
+                      style: style12.copyWith(color: Color(0xFF021326)),
                     ),
                   ),
                   Expanded(
@@ -129,7 +129,7 @@ class _SingUpState extends State<SingUp> {
                       onPressed: () {},
                       child: Text(
                         "Privacy Policy",
-                        style: sty12B.copyWith(color: Color(0xFF0066D8)),
+                        style: style12B.copyWith(color: Color(0xFF0066D8)),
                       ),
                     ),
                   ),
@@ -148,7 +148,7 @@ class _SingUpState extends State<SingUp> {
                     padding: const EdgeInsets.symmetric(horizontal: 8.0),
                     child: Text(
                       "Or continue with",
-                      style: sty12.copyWith(color: Color(0xFF677687)),
+                      style: style12.copyWith(color: Color(0xFF677687)),
                       selectionColor: Color(0xFF677687),
                     ),
                   ),
@@ -191,7 +191,7 @@ class _SingUpState extends State<SingUp> {
                   ),
                 ),
               ),
-              SizedBox(height: 150),
+              SizedBox(height: 100),
               Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [

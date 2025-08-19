@@ -1,4 +1,5 @@
 import 'package:first_app/core/constatns/colors.dart';
+import 'package:first_app/ui/screens/auth/homescreen.dart';
 import 'package:flutter/material.dart';
 
 class CustomButton extends StatelessWidget {
@@ -17,7 +18,12 @@ class CustomButton extends StatelessWidget {
             borderRadius: BorderRadius.circular(12),
           ),
         ),
-        onPressed: () {},
+        onPressed: () {
+          Navigator.pushReplacement(
+            context,
+            MaterialPageRoute(builder: (context) => HomeScreen()),
+          );
+        },
         child: Text(
           text ?? '',
           style: TextStyle(fontSize: 16, color: whiteColor),

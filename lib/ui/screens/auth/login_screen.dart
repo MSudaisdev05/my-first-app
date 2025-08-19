@@ -114,7 +114,7 @@ class _LoginScreenState extends State<LoginScreen> {
                     padding: const EdgeInsets.symmetric(horizontal: 8.0),
                     child: Text(
                       "Or continue with",
-                      style: sty12.copyWith(color: Color(0xFF677687)),
+                      style: style12.copyWith(color: Color(0xFF677687)),
                       selectionColor: Color(0xFF677687),
                     ),
                   ),
@@ -155,7 +155,7 @@ class _LoginScreenState extends State<LoginScreen> {
                   ),
                 ),
               ),
-              SizedBox(height: 21),
+              SizedBox(height: 150),
               Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
