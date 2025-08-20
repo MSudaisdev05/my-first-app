@@ -148,7 +148,7 @@ _container() {
                   style: style18B.copyWith(color: whiteColor),
                 ),
               ),
-              Text("25%", style: style42B.copyWith(color: whiteColor)),
+              Text("25%", style: style42B.copyWith(color: whiteColor),),
               Text(
                 "Non-veg Platter",
                 style: style18B.copyWith(color: whiteColor),

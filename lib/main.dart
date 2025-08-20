@@ -1,4 +1,5 @@
 import 'package:first_app/ui/screens/auth/splash_screen.dart';
+import 'package:first_app/ui/screens/discountscreen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -31,7 +32,7 @@ class MyApp extends StatelessWidget {
         // tested with just a hot reload.
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: SplashScreen(),
+      home: DiscountScreen(),
     );
   }
 }
