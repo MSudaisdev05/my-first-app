@@ -51,6 +51,11 @@ const style14B = TextStyle(
   fontWeight: FontWeight.bold,
   color: blackColor,
 );
+const style16B = TextStyle(
+  fontSize: 16,
+  fontWeight: FontWeight.bold,
+  color: blackColor,
+);
 const style14 = TextStyle(
   fontSize: 14,
   fontWeight: FontWeight.w400,

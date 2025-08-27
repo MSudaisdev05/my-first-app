@@ -1,3 +1,5 @@
+import 'package:first_app/ui/root/root_scrreen.dart';
+import 'package:first_app/ui/screens/auth/homescreen.dart';
 import 'package:first_app/ui/screens/auth/splash_screen.dart';
 import 'package:first_app/ui/screens/discountscreen.dart';
 import 'package:flutter/material.dart';
@@ -32,7 +34,7 @@ class MyApp extends StatelessWidget {
         // tested with just a hot reload.
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: DiscountScreen(),
+      home: RootScreen(),
     );
   }
 }

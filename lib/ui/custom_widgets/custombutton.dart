@@ -21,7 +21,7 @@ class CustomButton extends StatelessWidget {
         onPressed: () {
           Navigator.pushReplacement(
             context,
-            MaterialPageRoute(builder: (context) => HomeScreen()),
+            MaterialPageRoute(builder: (context) => Homescreen()),
           );
         },
         child: Text(
