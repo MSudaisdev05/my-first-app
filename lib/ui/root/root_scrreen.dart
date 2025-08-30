@@ -54,13 +54,17 @@ class _RootScreenState extends State<RootScreen> {
                 radius: 20,
                 backgroundColor:
                     selectedIndex == 0 ? primeryColor : Colors.transparent,
-                child: Image.asset(
-                  "$iconsAssets/botm2.png",
-                  color: selectedIndex == 0 ? Colors.white : gryColor,
-                  scale: 1,
+                // child: Image.asset(
+                //   "$iconsAssets/botm2.png",
+                // color: selectedIndex == 1 ? Colors.white : gryColor,
+                // scale: 3,
+                child: Icon(
+                  Icons.home,
+                  color: selectedIndex == 0 ? whiteColor : gryColor,
                 ),
               ),
             ),
+
             GestureDetector(
               onTap: () {
                 setState(() {
@@ -76,8 +80,8 @@ class _RootScreenState extends State<RootScreen> {
                 // color: selectedIndex == 1 ? Colors.white : gryColor,
                 // scale: 3,
                 child: Icon(
-                  Icons.home,
-                  color: selectedIndex == 1 ? whiteColor : gryColor,
+                  Icons.dashboard,
+                  color: selectedIndex == 1 ? Colors.white : gryColor,
                 ),
               ),
             ),
@@ -92,10 +96,10 @@ class _RootScreenState extends State<RootScreen> {
                 radius: 20,
                 backgroundColor:
                     selectedIndex == 2 ? primeryColor : Colors.transparent,
-                child: Image.asset(
-                  "$iconsAssets/botm2.png",
+                child: Icon(
+                  Icons.shopping_bag,
                   color: selectedIndex == 2 ? Colors.white : gryColor,
-                  scale: 3,
+                
                 ),
               ),
             ),
@@ -109,10 +113,10 @@ class _RootScreenState extends State<RootScreen> {
                 radius: 20,
                 backgroundColor:
                     selectedIndex == 3 ? primeryColor : Colors.transparent,
-                child: Image.asset(
-                  "$iconsAssets/botm2.png",
+                child: Icon(
+                  Icons.menu,
                   color: selectedIndex == 3 ? Colors.white : gryColor,
-                  scale: 3,
+                  
                 ),
               ),
             ),

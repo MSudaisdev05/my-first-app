@@ -8,8 +8,12 @@ class Homescreen extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         toolbarHeight: 300,
-        flexibleSpace: Image.asset("assets/static_assets/appbar.png"),
+        flexibleSpace: Image.asset(
+          "assets/static_assets/appbar.png",
+          fit: BoxFit.fill,
+        ),
       ),
+      body: Container(color: Colors.cyanAccent, height: 300, width: 200),
     );
   }
 }

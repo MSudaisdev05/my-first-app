@@ -1,3 +1,5 @@
+// ignore_for_file: unused_import
+
 import 'package:first_app/ui/root/root_scrreen.dart';
 import 'package:first_app/ui/screens/auth/homescreen.dart';
 import 'package:first_app/ui/screens/auth/splash_screen.dart';

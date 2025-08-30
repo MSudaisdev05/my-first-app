@@ -1,3 +1,5 @@
+// ignore_for_file: use_key_in_widget_constructors
+
 import 'dart:async';
 
 import 'package:first_app/ui/screens/auth/login_screen.dart';

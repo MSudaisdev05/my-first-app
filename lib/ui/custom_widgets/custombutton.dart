@@ -1,3 +1,5 @@
+// ignore_for_file: must_be_immutable, use_key_in_widget_constructors, sized_box_for_whitespace
+
 import 'package:first_app/core/constatns/colors.dart';
 import 'package:first_app/ui/screens/auth/homescreen.dart';
 import 'package:flutter/material.dart';
