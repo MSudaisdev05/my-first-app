@@ -1,17 +1,18 @@
 import 'package:first_app/core/constatns/colors.dart';
 import 'package:flutter/cupertino.dart';
-
-const style32 = TextStyle(
+import 'package:google_fonts/google_fonts.dart';
+ TextStyle style32 = GoogleFonts.poppins(
   fontSize: 32,
   fontWeight: FontWeight.normal,
   color: blackColor,
+
 );
-const style32B = TextStyle(
+ TextStyle style32B = GoogleFonts.poppins(
   fontSize: 32,
   fontWeight: FontWeight.bold,
   color: blackColor,
 );
-const style16 = TextStyle(
+ TextStyle style16 = GoogleFonts.poppins(
   fontSize: 16,
   fontWeight: FontWeight.normal,
   color: blackColor,

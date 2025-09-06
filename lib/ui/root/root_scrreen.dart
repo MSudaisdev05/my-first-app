@@ -3,6 +3,7 @@ import 'package:first_app/core/constatns/strings.dart';
 import 'package:first_app/core/constatns/text_style.dart';
 import 'package:first_app/ui/screens/auth/Setting.dart';
 import 'package:first_app/ui/screens/auth/homescreen.dart';
+import 'package:first_app/ui/screens/discountscreen.dart';
 import 'package:flutter/material.dart';
 
 class RootScreen extends StatefulWidget {
@@ -21,6 +22,7 @@ class _RootScreenState extends State<RootScreen> {
   List<Widget> screen = [
     Homescreen(),
     Center(child: Text("Serch", style: style42B)),
+    DiscountScreen(),
     Setting(),
     Center(child: Text("dashbord", style: style42B)),
   ];
